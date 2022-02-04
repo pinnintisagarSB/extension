@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2rem;
+    margin: .7rem;
+    border-radius: 1rem;
+    padding: .3rem 2rem;
+    margin-top: .8rem;
+    margin-bottom: 0;
+    color: black;
+    background: #fff;
+    text-align: center;
+}
+#add{
+    margin: 1rem .5rem;
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
+    height: 4rem;
+    width: 50%;
+    align-items: center;
+    border-radius: 50rem;
+    outline: none;
+    border: transparent;
+    background: rgb(248, 8, 48);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease all;
+}
+.audio{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    background-color: #fff;
+    border-radius: .7rem;
+    margin: .8rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#lis{
+    margin: 1rem .5rem;
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+    height: 4rem;
+    width: 50%;
+    align-items: center;
+    border-radius: 50rem;
+    outline: none;
+    border: transparent;
+    background: rgb(248, 8, 48);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease all;
+}
+#stop{
+    margin: 1rem 3rem;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    height: 4rem;
+    width: 50%;
+    align-items: center;
+    border-radius: 50rem;
+    outline: none;
+    border: transparent;
+    background: rgb(248, 8, 48);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    background-color: #fff;
+    margin: .8rem;
+    margin-top: 0;
+    border-radius: .7rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#resu{
+    margin: 1rem .5rem;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    height: 4rem;
+    width: 50%;
+    align-items: center;
+    border-radius: 50rem;
+    outline: none;
+    border: transparent;
+    background: rgb(248, 8, 48);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease all;
+}
+.fa-play ,.fa-stop-circle-o,.fa-download{
+    background: transparent;
+}
+.fa-pause{
+    background: transparent;
+}
+#save{
+    margin: 1rem .5rem;
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+    height: 4rem;
+    width: 50%;
+    align-items: center;
+    border-radius: 50rem;
+    outline: none;
+    border: transparent;
+    background: rgb(248, 8, 48);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease all;
+}
+h2{
+    font-size: 1.4rem;
+    color: white;
+    background: rgb(240, 19, 56);
+    margin: .7rem;
+    padding: .3rem 0;
+    margin-bottom: 0;
+    width: 90%;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+button:hover{
+    transform: scale(1.1);
+}

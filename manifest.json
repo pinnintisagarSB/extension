@@ -1,0 +1,24 @@
+{
+    "name": "SpeakBot",
+    "version": "1.0",
+    "description": "It helps you to read the content and also helps in saving the selected contents as file for you.",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+         "32" : "32.png",
+         "64": "32.png",
+         "128": "32.png"
+    },
+    "content_scripts": [
+    {
+    "matches": ["<all_urls>"],
+    "js":["Content.js"],
+    "run_at": "document_end"
+    }
+    ],
+    "permissions":[
+        "<all_urls>"
+    ]
+}
